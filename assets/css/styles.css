@@ -1,3 +1,7 @@
 .bg-ejercicio1 {
     background: url('../img/background.jpeg') no-repeat center center fixed;
 }
+
+.borde-ejercicio1 {
+    border: 2px solid #ff0000;
+}
