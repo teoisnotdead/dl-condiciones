@@ -1,7 +1,28 @@
-.bg-ejercicio1 {
-    background: url('../img/background.jpeg') no-repeat center center fixed;
+.bg-peaky-blinders {
+  background: url('../img/bg-pb.jpeg') no-repeat center center fixed;
 }
 
 .borde-ejercicio1 {
-    border: 2px solid #ff0000;
+  border: 2px solid #ff0000;
+}
+
+.bg-dragon-ball-super {
+  background: url('../img/bg-dbs.jpg') no-repeat center center / cover;
+}
+
+.bg-dragon-ball-super::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
 }
