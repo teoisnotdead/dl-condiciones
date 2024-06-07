@@ -6,6 +6,36 @@ const quantity3 = document.querySelector('#quantity3');
 const buttonCheck = document.querySelector('#button');
 const message = document.querySelector('#message');
 
+const img1 = document.querySelector('#img1');
+const img2 = document.querySelector('#img2');
+const img3 = document.querySelector('#img3');
+
+
+
+quantity1.addEventListener('click', () => {
+    if (quantity1.value === '0') {
+        img1.classList.add('grayscale');
+    } else {
+        img1.classList.remove('grayscale');
+    }
+});
+
+quantity2.addEventListener('click', () => {
+    if (quantity2.value === '0') {
+        img2.classList.add('grayscale');
+    } else {
+        img2.classList.remove('grayscale');
+    }
+});
+
+quantity3.addEventListener('click', () => {
+    if (quantity3.value === '0') {
+        img3.classList.add('grayscale');
+    } else {
+        img3.classList.remove('grayscale');
+    }
+});
+
 buttonCheck.addEventListener('click', () => {
     const q1 = Number(quantity1.value);
     const q2 = Number(quantity2.value);

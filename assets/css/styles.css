@@ -1,8 +1,3 @@
-header {
-  position: relative;
-  z-index: 1000;
-}
-
 .bg-peaky-blinders {
   background: url('../img/bg-pb.jpeg') no-repeat center center fixed;
 }
