@@ -31,3 +31,8 @@ header {
   position: relative;
   z-index: 2;
 }
+
+
+.bg-candado {
+  background: url('../img/bg-candado.jpeg') no-repeat center center / cover;
+}
