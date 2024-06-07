@@ -19,7 +19,7 @@
     </nav>
   </header>
 
-  <main class="flex justify-center bg-dragon-ball-super bg-gray-800 bg-opacity-75 w-full h-screen">
+  <main class="flex justify-center bg-dragon-ball-super w-full h-screen">
     <div class="p-4 flex flex-col space-y-5 content">
       <h1 class="text-white text-2xl font-bold text-center">Ejercicio 2</h1>
       <h3 class="text-white text-lg font-bold text-center">Puedes llevar hasta 10 stickers en total</h3>
@@ -27,28 +27,25 @@
       <div class="flex flex-col justify-center bg-gray-300 bg-opacity-75 p-8 rounded space-y-10">
         <div class="flex justify-center">
           <div class="flex flex-col items-center space-y-5">
-            <img id="sticker1"
-              class="w-40 h-40 object-contain hover:cursor-pointer hover:ease-in duration-300 hover:scale-105"
+            <img class="w-40 h-40 object-contain hover:cursor-pointer hover:ease-in duration-300 hover:scale-105"
               src="./assets/img/gogeta.png" alt="Gogeta Sticker">
-            <input type="number" id="quantity1" class="w-20 text-center" value="0" min="0" max="10">
+            <input type="number" id="quantity1" class="w-20 text-center" value="0" min="0">
           </div>
 
           <div class="flex flex-col items-center space-y-5">
-            <img id="sticker2"
-              class="w-40 h-40 object-contain hover:cursor-pointer hover:ease-in duration-300 hover:scale-105"
+            <img class="w-40 h-40 object-contain hover:cursor-pointer hover:ease-in duration-300 hover:scale-105"
               src="./assets/img/vegito.png" alt="Vegito Sticker">
-            <input type="number" id="quantity2" class="w-20 text-center" value="0" min="0" max="10">
+            <input type="number" id="quantity2" class="w-20 text-center" value="0" min="0">
           </div>
 
           <div class="flex flex-col items-center space-y-5">
-            <img id="sticker3"
-              class="w-40 h-40 object-contain hover:cursor-pointer hover:ease-in duration-300 hover:scale-105"
+            <img class="w-40 h-40 object-contain hover:cursor-pointer hover:ease-in duration-300 hover:scale-105"
               src="./assets/img/goku-black.png" alt="Goku Black Sticker">
-            <input type="number" id="quantity3" class="w-20 text-center" value="0" min="0" max="10">
+            <input type="number" id="quantity3" class="w-20 text-center" value="0" min="0">
           </div>
         </div>
 
-        <p id="message"></p>
+        <p class="text-center p-0" id="message"></p>
 
         <button id="button" class="bg-gray-800 text-white p-2 rounded hover:bg-gray-700">Verificar</button>
       </div>
@@ -56,7 +53,7 @@
     </div>
   </main>
 
-  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/script2.js"></script>
 </body>
 
 </html>
