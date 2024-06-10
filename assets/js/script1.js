@@ -8,4 +8,7 @@ image.addEventListener('click', () => {
     } else {
         image.classList.add('borde-ejercicio1');
     }
+
+    // Otra forma de hacerlo, pero como la semana es de los condicionales, lo hice de la forma anterior
+    // image.classList.toggle('borde-ejercicio1');
 });
