@@ -3,5 +3,9 @@
 const image = document.querySelector('#image');
 
 image.addEventListener('click', () => {
-    image.classList.toggle('borde-ejercicio1');
+    if (image.classList.contains('borde-ejercicio1')) {
+        image.classList.remove('borde-ejercicio1');
+    } else {
+        image.classList.add('borde-ejercicio1');
+    }
 });
